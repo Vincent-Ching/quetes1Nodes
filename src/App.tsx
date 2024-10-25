@@ -1,5 +1,5 @@
 import React from 'react';
-import PokemonCard from './components/PokemonCard'; // Assure-toi que le chemin est correct
+import PokemonCard from './components/PokemonCard'; 
 
 const App: React.FC = () => {
   return (
