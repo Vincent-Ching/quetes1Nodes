@@ -1,10 +1,12 @@
 import React from 'react';
 import PokemonCard from './components/PokemonCard'; 
 
-const App: React.FC = () => {
+
+
+function App() {
   return (
     <div>
-      <PokemonCard />
+      <PokemonCard pokemon={PokemonCard[0]}/>
     </div>
   );
 };
